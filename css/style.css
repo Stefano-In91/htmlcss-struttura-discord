@@ -6,11 +6,23 @@
     margin: 0;
     padding: 0;
 }
-
 /*---------------
     DEBUG
 ---------------*/
-
+.debug header{
+    background-color: lightblue;
+}
+.debug .header-top {
+    background-color: yellowgreen;
+}
+.debug .header-bot {
+    background-color: darkblue;
+    height: 500px;
+}
+.debug .hero {
+    background-color: pink;
+    height: 300px;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -24,7 +36,24 @@
 /*---------------
     HEADER
 ---------------*/
-
+header {
+    padding: 10px;
+}
+.header-top {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.header-bot {
+    justify-content: center;
+    align-items: center;
+    margin: 0 -10px;
+}
+.hero {
+    margin: 40px auto;
+    width: 50%;
+}
 /*---------------
     MAIN
 ---------------*/
