@@ -43,6 +43,30 @@
     background-color: green;
     height: 480px;
 }
+.debug footer {
+    background-color: darkslategray;
+}
+.debug .footer-top {
+    height: 280px;
+}
+.debug .footer-bot {
+    height: 100px;
+}
+.debug .col-big-footer {
+    background-color: orchid;
+    height: 240px;
+}
+.debug .col-small-footer {
+    background-color: cyan;
+    height: 240px;
+    border-left: 1px dotted black;
+}
+.debug .footer-bot .row {
+    background-color: aquamarine;
+}
+.debug .footer-bot .row div{
+    background-color: pink;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -90,3 +114,25 @@ main section {
 /*---------------
     FOOTER
 ---------------*/
+footer {
+    padding-top: 10px;
+}
+.footer-top {
+    border-bottom: 2px solid white;
+}
+.col-big-footer {
+    width: 40%;
+}
+.col-small-footer {
+    width: 15%;
+}
+.footer-bot {
+    padding-top: 25px;
+}
+.footer-bot .row {
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.footer-bot .row div {
+    padding: 13px;
+}
