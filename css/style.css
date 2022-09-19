@@ -23,6 +23,26 @@
     background-color: pink;
     height: 300px;
 }
+.debug main > section {
+    height: 280px;
+}
+.debug main > section:nth-child(2n) {
+    background-color: lightgray;
+}
+.debug .col-big {
+    background-color: aqua;
+    height: 200px;
+}
+.debug .col-small {
+    background-color: salmon;
+}
+.debug main > section:last-child {
+    height: 560px;
+}
+.debug .big-hero {
+    background-color: green;
+    height: 480px;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -57,6 +77,15 @@ header {
 /*---------------
     MAIN
 ---------------*/
+main section {
+    padding: 40px;
+}
+.col-big {
+    width: 60%;
+}
+.col-small {
+    width: 40%;
+}
 
 /*---------------
     FOOTER
