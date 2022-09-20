@@ -45,7 +45,7 @@
     height: 480px;
 }
 .debug footer {
-    background-color: darkslategray;
+    background-color: #23272a;
 }
 .debug .footer-top {
     height: 280px;
@@ -94,14 +94,6 @@ header {
 .header-top ul {
     width: 60%;
 }
-.header-bot {
-    justify-content: center;
-    align-items: center;
-}
-.hero {
-    margin: 40px auto;
-    max-width: 60%;
-}
 .header-top ul {
     list-style: none;
     display: flex;
@@ -115,7 +107,15 @@ header {
     color: inherit;
 }
 .header-top .login {
-    text-align: center;
+    text-align: right;
+}
+.header-bot {
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    margin: 40px auto;
+    max-width: 60%;
 }
 /*---------------
     MAIN
@@ -136,22 +136,22 @@ main section {
 footer {
     padding-top: 10px;
 }
-.footer-bot div {
+.footer-bot > div {
     border-top: 2px solid white;
 }
 .col-big-footer {
-    width: 40%;
+    width: 35%;
 }
 .col-small-footer {
-    width: 15%;
+    width: calc(65% / 4);
 }
 .footer-bot {
     padding-top: 25px;
 }
 .footer-bot .row {
     justify-content: space-between;
-    padding: 14x 0;
+    padding: 14px 0;
 }
 .footer-bot .row div {
-    padding: 13px;
+    padding: 5px;
 }
