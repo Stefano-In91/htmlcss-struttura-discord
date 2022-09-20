@@ -22,6 +22,7 @@
 .debug .hero {
     background-color: pink;
     height: 300px;
+    width: 60%;
 }
 .debug main > section {
     height: 280px;
@@ -71,7 +72,7 @@
     COMMON
 ---------------*/
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
 }
 .row {
@@ -81,28 +82,46 @@
     HEADER
 ---------------*/
 header {
-    padding: 10px;
+    padding: 10px 0;
 }
 .header-top {
-    justify-content: space-between;
-    align-items: center;
     padding: 5px;
     margin-bottom: 10px;
+}
+.logo, .login {
+    width: 20%;    
+}
+.header-top ul {
+    width: 60%;
 }
 .header-bot {
     justify-content: center;
     align-items: center;
-    margin: 0 -10px;
 }
 .hero {
     margin: 40px auto;
-    width: 50%;
+    max-width: 60%;
+}
+.header-top ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.header-top li {
+    margin: 0 10px;
+}
+.header-top ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-top .login {
+    text-align: center;
 }
 /*---------------
     MAIN
 ---------------*/
 main section {
-    padding: 40px;
+    padding: 40px 0;
 }
 .col-big {
     width: 60%;
@@ -117,8 +136,8 @@ main section {
 footer {
     padding-top: 10px;
 }
-.footer-top {
-    border-bottom: 2px solid white;
+.footer-bot div {
+    border-top: 2px solid white;
 }
 .col-big-footer {
     width: 40%;
@@ -131,7 +150,7 @@ footer {
 }
 .footer-bot .row {
     justify-content: space-between;
-    padding: 15px 0px;
+    padding: 14x 0;
 }
 .footer-bot .row div {
     padding: 13px;
