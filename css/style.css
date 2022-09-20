@@ -9,6 +9,7 @@
 /*---------------
     DEBUG
 ---------------*/
+/* --- header --- */
 .debug header{
     background-color: lightblue;
 }
@@ -24,6 +25,7 @@
     height: 300px;
     width: 60%;
 }
+/* --- main --- */
 .debug main > section {
     height: 280px;
 }
@@ -44,6 +46,7 @@
     background-color: green;
     height: 480px;
 }
+/* --- footer --- */
 .debug footer {
     background-color: #23272a;
 }
@@ -96,7 +99,6 @@ header {
 }
 .header-top ul {
     list-style: none;
-    display: flex;
     justify-content: center;
 }
 .header-top li {
